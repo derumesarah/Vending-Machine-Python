@@ -1,1 +1,1 @@
-# Coffee Machine Project
+# Hot Drinks Vending Machine Project
