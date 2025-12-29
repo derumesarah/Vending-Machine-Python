@@ -45,11 +45,12 @@ while True:
     else:
         print("Invalid selection. This machine only dispenses tea, coffee, and cocoa.")
 
-    weiter = input("Would you like to place another order? (yes/no): ").lower()
+    next = input("Would you like to place another order? (yes/no): ").lower()
 
-    if weiter != 'yes':
+    if next != 'yes':
         if Z0 > 0:
             print(f"Your change is: {Z0}$")
         break
+
 
 
