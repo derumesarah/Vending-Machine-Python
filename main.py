@@ -6,7 +6,7 @@ Z0 = float(input("Please insert money (Coffee = 2,5$, Cocoa = 2$, Tea = 2$):\n")
 print(f"You have inserted: {Z0}$")
 
 while True:
-    Z1 = input("Please choose between coffee, cocoa, or tea:\n").lower()
+    Z1 = input("Please choose between coffee, cocoa, or tea (write down your choice):\n").lower()
 
     if Z1 == "tea":
         while Z0 < tea_price:
@@ -50,3 +50,4 @@ while True:
         if Z0 > 0:
             print(f"Your change is: {Z0}$")
         break
+
