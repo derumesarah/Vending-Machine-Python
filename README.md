@@ -1,1 +1,1 @@
-# Coffee-machine-python
+# Coffee Machine Project
